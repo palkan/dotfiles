@@ -18,5 +18,13 @@ spaceship() {
    echo 'export ZSH_THEME="spaceship"' > $ZSH_CUSTOM/prompt.zsh
 }
 
+gitconfig() {
+   echo "==========================================================="
+   echo "                     Configure Git                         "
+   echo "-----------------------------------------------------------"
+   cp -f $DOTFILES/gitconfig $HOME/.gitconfig
+}
+
 aliases
 spaceship
+gitconfig
