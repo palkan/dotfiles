@@ -9,7 +9,7 @@ aliases() {
     cp ./aliases.zsh $ZSH_CUSTOM/
 }
 
-spaceship-prompt() {
+spaceship() {
    echo "==========================================================="
    echo "                Install spaceship prompt                   "
    echo "-----------------------------------------------------------"
@@ -19,4 +19,4 @@ spaceship-prompt() {
 }
 
 aliases
-spaceship-prompt
+spaceship
